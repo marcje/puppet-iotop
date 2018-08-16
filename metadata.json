@@ -1,0 +1,26 @@
+{
+  "name": "marcje-iotop",
+  "version": "1.0.0",
+  "author": "Marc ter Bogt",
+  "summary": "Ensures that iotop is installed.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/marcje/puppet-iotop/tree/master",
+  "project_page": "hhttps://github.com/marcje/puppet-iotop",
+  "issues_url": "https://github.com/marcje/puppet-iotop/issues",
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04",
+		"18.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0"
+    }
+  ]
+}
